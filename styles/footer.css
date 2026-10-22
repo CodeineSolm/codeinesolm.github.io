@@ -1,0 +1,16 @@
+.contact-container {
+  background-color: rgb(10, 10, 10);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-container {
+  font-size: 1rem;
+
+}
