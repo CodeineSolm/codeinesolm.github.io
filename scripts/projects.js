@@ -32,7 +32,7 @@ projects.forEach((project) => {
   <div class="projects-card">
     <div class="project-name">${project.name}</div>
     <div class="project-img-container">
-      <img class="project-img" src="${project.img}" />
+      <img alt="screenshot of projects main page" loading="lazy" class="project-img" src="${project.img}" />
     </div>
     <div class="project-stack">${project.stack}</div>
     <div class="project-link-container">
@@ -49,3 +49,8 @@ projects.forEach((project) => {
 });
 
 gridElement.innerHTML = gridHTML;
+
+//clickable email
+document.querySelector(".email-container").addEventListener("click", () => {
+  window.location.href = "mailto:bloodmailvol1@gmail.com";
+});
