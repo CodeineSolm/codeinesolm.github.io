@@ -49,8 +49,3 @@ projects.forEach((project) => {
 });
 
 gridElement.innerHTML = gridHTML;
-
-//clickable email
-document.querySelector(".email-container").addEventListener("click", () => {
-  window.location.href = "mailto:bloodmailvol1@gmail.com";
-});
