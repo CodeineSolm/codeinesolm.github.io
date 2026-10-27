@@ -16,6 +16,7 @@
 
 .project-name {
   margin-bottom: 20px;
+  font-weight: 500;
 }
 
 .project-img-container {
@@ -24,8 +25,9 @@
 }
 
 .project-img {
+  height: 250px;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .project-stack {

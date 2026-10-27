@@ -1,9 +1,15 @@
 const projects = [{
-  name: "L2central clone",
+  name: "L2central main page",
   img: "images/l2central.jpg",
   stack: "Stack: HTML / CSS / JavaScript",
   websiteLink: "/l2central-clone",
   githubLink: "https://github.com/CodeineSolm/l2central-clone"
+}, {
+  name: "Youtube main page",
+  img: "images/youtubeMainPage.jpg",
+  stack: "Stack: HTML / CSS / JavaScript",
+  websiteLink: "/youtube-html-css-js",
+  githubLink: "https://github.com/CodeineSolm/youtube-html-css-js"
 }, {
   name: "Shopping List",
   img: "images/shoppingList.jpg",
@@ -16,12 +22,6 @@ const projects = [{
   stack: "Stack: HTML / CSS / JavaScript",
   websiteLink: "/quote-generator",
   githubLink: "https://github.com/CodeineSolm/quote-generator"
-}, {
-  name: "Youtube main page",
-  img: "images/youtubeMainPage.jpg",
-  stack: "Stack: HTML / CSS / JavaScript",
-  websiteLink: "/youtube-html-css-js",
-  githubLink: "https://github.com/CodeineSolm/youtube-html-css-js"
 }];
 
 const gridElement = document.querySelector('.js-project-grid');
